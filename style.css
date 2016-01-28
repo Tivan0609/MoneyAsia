@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+
+    background-image: url(images/back.jpg);
+}
+
+#allbroad{
+    margin: 39px 39px;
+    margin: 0 auto;
+
+}
+
+.top{
+    width: 942px;
+    height: 660px;
+    margin: 0 auto;
+	position: relative;
+}
+.logo{
+    width: 291px;
+    height: 42px;
+}
+
+/*banner css*/
+.title{
+    background-image: url(images/banner-title.png);
+	background-repeat: no-repeat;
+    width: 942px;
+    height: 139px;
+
+}
+
+.buy{
+    width: 129px;
+    height: 131px;
+    position: absolute;
+    right: 300px;
+    top: 330px;
+	z-index: 2;
+    display: block;
+    background-image: url(images/buy.gif);
+}
+
+
+
+
+.MENU {
+
+    width: 1048px;
+    height: 47px;
+    margin: 0 auto;
+    float: right;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 0 auto;
+}
+li {
+    float: left;
+    display:inline;
+}
+li a {
+    display: block;
+    width: 180px;
+    height: 55px;
+    background-image: url(images/btn-bg.png);
+    background-repeat: no-repeat;
+    line-height: 40px;
+    font-family: Microsoft JhengHei;
+    font-weight: bold;
+    font-size: 14pt;
+    color: #59705d;
+    letter-spacing:1px; 
+    text-decoration:none;
+    text-align:center;
+}
+
+li a:hover {
+	
+    background-image: url(images/menu-click.png);
+}
+
+a{
+      outline: none; /* for Firefox Google Chrome  */
+     
+}
+
+
+/*home css*/
+
+.homepage{
+    width: 1049px;
+    height: 423px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.homegif{
+    background-image: url(images/pe-gif.gif);
+    width: 1049px;
+    height: 352px;
+	top: 20px;
+}
+.hometxt{
+    background-image: url(images/警語.jpg);
+    width: 1049px;
+    height: 71px;
+}
+
+
+.topbar{
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 97%;
+    height: 152px;
+    margin: 0;
+    position: fixed;
+    z-index: 102;
+    top: 0;
+    background-image: url(images/topmenu.png);
+    background-repeat: repeat-x;
+}
+
+
+/*index css*/
+.index{
+    position: relative;
+    width: 1120px;
+	margin: 0 auto;
+    padding-top: 100px; 
+}
+
+
+/*top icon*/
+#gotop {
+    display: block;
+    position: fixed;
+    right: 20px;
+    bottom: 100px;    
+    padding: 10px 15px;    
+    cursor: pointer;
+	z-index:10;
+}
+
+/*circle*/
+#circle1{
+    display: block;
+    position: fixed;
+    right: 32px;
+    bottom: 205px;    
+    padding: 10px 15px;    
+    cursor: pointer;
+	z-index:10;
+}
+#circle2{
+    display: block;
+    position: fixed;
+    right: 32px;
+    bottom: 185px;    
+    padding: 10px 15px;    
+    cursor: pointer;
+	z-index:10;
+}
+#circle3{
+    display: block;
+    position: fixed;
+    right: 32px;
+    bottom: 165px;    
+    padding: 10px 15px;    
+    cursor: pointer;
+	z-index:10;
+}
+#circle4{
+    display: block;
+    position: fixed;
+    right: 32px;
+    bottom: 145px;    
+    padding: 10px 15px;    
+    cursor: pointer;
+	z-index:10;
+}
+
+
+/*footer css*/
+.footer{
+    margin: 0 auto;
+    position: relative;
+}
+.f-top{
+	margin: 0 auto;
+	background-image: url(images/f-top.jpg);
+	width: 1049px;
+    height: 168px;
+}
+.f-left{
+    height: 20px;
+    padding-top: 20px;
+    padding-right: 180px;
+}
+.f-right{
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 177px;
+}
+.copyright{
+    padding-top: 5px;
+    clear: left;
+    border-top: solid 1px #00683d;
+}
